@@ -2041,6 +2041,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@emotion/cache@npm:^11.5.0":
+  version: 11.5.0
+  resolution: "@emotion/cache@npm:11.5.0"
+  dependencies:
+    "@emotion/memoize": ^0.7.4
+    "@emotion/sheet": ^1.0.3
+    "@emotion/utils": ^1.0.0
+    "@emotion/weak-memoize": ^0.2.5
+    stylis: ^4.0.10
+  checksum: 8b3fac281ea201d617b594d79e4b38903ee538e9aa2117f3f99a4f952b3f93d92659a569b3b934efa31ae450b2ddd9ae435b6c77db70aa99ac8cae4cbd71450b
+  languageName: node
+  linkType: hard
+
 "@emotion/hash@npm:^0.8.0":
   version: 0.8.0
   resolution: "@emotion/hash@npm:0.8.0"
@@ -2061,6 +2074,29 @@ __metadata:
   version: 0.7.5
   resolution: "@emotion/memoize@npm:0.7.5"
   checksum: 83da8d4a7649a92c72f960817692bc6be13cc13e107b9f7e878d63766525ed4402881bfeb3cda61145c050281e7e260f114a0a2870515527346f2ef896b915b3
+  languageName: node
+  linkType: hard
+
+"@emotion/react@npm:^11.4.0":
+  version: 11.5.0
+  resolution: "@emotion/react@npm:11.5.0"
+  dependencies:
+    "@babel/runtime": ^7.13.10
+    "@emotion/cache": ^11.5.0
+    "@emotion/serialize": ^1.0.2
+    "@emotion/sheet": ^1.0.3
+    "@emotion/utils": ^1.0.0
+    "@emotion/weak-memoize": ^0.2.5
+    hoist-non-react-statics: ^3.3.1
+  peerDependencies:
+    "@babel/core": ^7.0.0
+    react: ">=16.8.0"
+  peerDependenciesMeta:
+    "@babel/core":
+      optional: true
+    "@types/react":
+      optional: true
+  checksum: 4188b664cc5b7142cf58323d78911cfdeef106d7b26987f8e4aceb51074e99a48a16cf6c3d1aa124462d2135a7b0d2b5d1bc2bbb6ac6167010f69607d822d51a
   languageName: node
   linkType: hard
 
@@ -2104,6 +2140,13 @@ __metadata:
   version: 1.0.2
   resolution: "@emotion/sheet@npm:1.0.2"
   checksum: 836b413c6657cd6a3de93c53eebd80ea9a6656123f1b78f539b2eaba145fb8566e3aa005b301f807632964f29f7c3cd85322dafb5634abdc1760794e0c7f76dd
+  languageName: node
+  linkType: hard
+
+"@emotion/sheet@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "@emotion/sheet@npm:1.0.3"
+  checksum: 43a9b9a0e4261d40c02907bbea4d19e7c75d102fbd04e55a94e025b26b7a78bb499c2f76c9a0bd94f36bee0b0219006ab26a1ebb9eb4cbb30f2925313de30b61
   languageName: node
   linkType: hard
 
@@ -16552,6 +16595,19 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"react-awesome-reveal@npm:^3.8.1":
+  version: 3.8.1
+  resolution: "react-awesome-reveal@npm:3.8.1"
+  dependencies:
+    "@emotion/react": ^11.4.0
+    react-intersection-observer: ^8.32.0
+    react-is: ^17.0.2
+  peerDependencies:
+    react: ">=16.14.0"
+  checksum: be8a1c595fb9e3ca4a2b11f75f39dd5d8ae376a52baa853d2a6dd3631e67f0a64c02fa52f90daa0903406b84f7cfd5551ec2e1356d1ad79173f4331908968554
+  languageName: node
+  linkType: hard
+
 "react-dev-utils@npm:^11.0.3":
   version: 11.0.4
   resolution: "react-dev-utils@npm:11.0.4"
@@ -16601,6 +16657,15 @@ fsevents@^1.2.7:
   version: 6.0.9
   resolution: "react-error-overlay@npm:6.0.9"
   checksum: 695853bc885e798008a00c10d8d94e5ac91626e8130802fea37345f9c037f41b80104345db2ee87f225feb4a4ef71b0df572b17c378a6d397b6815f6d4a84293
+  languageName: node
+  linkType: hard
+
+"react-intersection-observer@npm:^8.32.0":
+  version: 8.32.1
+  resolution: "react-intersection-observer@npm:8.32.1"
+  peerDependencies:
+    react: ^15.0.0 || ^16.0.0 || ^17.0.0|| ^18.0.0
+  checksum: 3bd4419a468299909774287244ce33390a6a2770da241fd0b53e8594b7e4ad4ffe9d08bceec616d297194a78680401029231d19388871469a0e234558de2fa47
   languageName: node
   linkType: hard
 
@@ -16764,6 +16829,7 @@ fsevents@^1.2.7:
     prettier: ^2.4.1
     prettier-stylelint: ^0.4.2
     react: ^17.0.2
+    react-awesome-reveal: ^3.8.1
     react-dom: ^17.0.2
     react-scripts: 4.0.3
     stylelint: ^13.13.1
@@ -19135,7 +19201,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"stylis@npm:^4.0.3":
+"stylis@npm:^4.0.10, stylis@npm:^4.0.3":
   version: 4.0.10
   resolution: "stylis@npm:4.0.10"
   checksum: 0fecaf5c234ec3ffcb0afc21478742a815a21cb964365259789be9c1692e72e13d8c081c1150fd76ed2146633a3251cdecd6e0c120b158f44bd74c38f81cafb3
