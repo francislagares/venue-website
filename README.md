@@ -1,6 +1,6 @@
 # The-Venue-Website
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/francislagares/react-typescript-starter/Tests?style=for-the-badge&labelColor=black&logo=github)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/francislagares/venue-website/Tests?style=for-the-badge&labelColor=black&logo=github)
 
 
 ## Built with
