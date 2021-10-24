@@ -8,7 +8,7 @@ interface IProps {
   link?: string;
   size?: 'small' | 'large' | 'medium' | undefined;
   style?: Record<string, unknown>;
-  iconTicket: boolean;
+  iconTicket?: boolean;
 }
 
 const MyButton = ({ children, link, size, style, iconTicket }: IProps) => {
