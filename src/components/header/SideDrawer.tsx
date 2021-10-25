@@ -1,5 +1,6 @@
 import React from 'react';
 import { Drawer, List, ListItem } from '@mui/material';
+import { scroller } from 'react-scroll';
 
 interface Props {
   isOpen: boolean;
@@ -20,8 +21,22 @@ const SideDrawer = ({ isOpen, onClose }: Props) => {
     { where: 'location', value: 'Location' },
   ];
 
+  const scrollToElement = (element: string) => {
+    scroller.scrollTo(element, {
+      duration: 1500,
+      delay: 100,
+      smooth: true,
+      offset: -85,
+    });
+    onClose(false);
+  };
+
   const renderItem = (item: Link) => (
-    <ListItem button onClick={() => console.log(item.where)} key={item.where}>
+    <ListItem
+      button
+      onClick={() => scrollToElement(item.where)}
+      key={item.where}
+    >
       {item.value}
     </ListItem>
   );
