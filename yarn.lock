@@ -3238,6 +3238,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/react-scroll@npm:^1.8.3":
+  version: 1.8.3
+  resolution: "@types/react-scroll@npm:1.8.3"
+  dependencies:
+    "@types/react": "*"
+  checksum: c3b0928b2a0bff92bc9c52de4c95c448f0569d01828fb80c135cf183819743dfbf859a57b60debc67501d7f64f7e1694c992e5d09898281c987869dd0ceace94
+  languageName: node
+  linkType: hard
+
 "@types/react-slick@npm:^0.23.7":
   version: 0.23.7
   resolution: "@types/react-slick@npm:0.23.7"
@@ -12829,6 +12838,13 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"lodash.throttle@npm:^4.1.1":
+  version: 4.1.1
+  resolution: "lodash.throttle@npm:4.1.1"
+  checksum: 129c0a28cee48b348aef146f638ef8a8b197944d4e9ec26c1890c19d9bf5a5690fe11b655c77a4551268819b32d27f4206343e30c78961f60b561b8608c8c805
+  languageName: node
+  linkType: hard
+
 "lodash.truncate@npm:^4.4.2":
   version: 4.4.2
   resolution: "lodash.truncate@npm:4.4.2"
@@ -16573,6 +16589,19 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"react-scroll@npm:^1.8.4":
+  version: 1.8.4
+  resolution: "react-scroll@npm:1.8.4"
+  dependencies:
+    lodash.throttle: ^4.1.1
+    prop-types: ^15.7.2
+  peerDependencies:
+    react: ^15.5.4 || ^16.0.0 || ^17.0.0
+    react-dom: ^15.5.4 || ^16.0.0 || ^17.0.0
+  checksum: fd31206090e7a223989d11bd51f0f6fbc4ddfa3a218c266f2ec5698b93021187b6e2604010defa3341653bc8fdc3ddfb91c2d45a251b7c9e8e1857dc0da715f5
+  languageName: node
+  linkType: hard
+
 "react-slick@npm:^0.28.1":
   version: 0.28.1
   resolution: "react-slick@npm:0.28.1"
@@ -16622,6 +16651,7 @@ fsevents@^1.2.7:
     "@types/node": ^16.11.4
     "@types/react": ^17.0.31
     "@types/react-dom": ^17.0.10
+    "@types/react-scroll": ^1.8.3
     "@types/react-slick": ^0.23.7
     "@typescript-eslint/eslint-plugin": ^5.1.0
     "@typescript-eslint/parser": ^5.1.0
@@ -16647,6 +16677,7 @@ fsevents@^1.2.7:
     react-awesome-reveal: ^3.8.1
     react-dom: ^17.0.2
     react-scripts: 4.0.3
+    react-scroll: ^1.8.4
     react-slick: ^0.28.1
     slick-carousel: ^1.8.1
     stylelint: ^14.0.0
